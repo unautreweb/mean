@@ -2,9 +2,9 @@
 
 module.exports = {
 	app: {
-		title: 'MEAN.JS',
-		description: 'Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js',
-		keywords: 'mongodb, express, angularjs, node.js, mongoose, passport'
+		title: 'Seekampus',
+		description: '',
+		keywords: ''
 	},
 	port: process.env.PORT || 3000,
 	templateEngine: 'swig',
@@ -62,7 +62,7 @@ module.exports = {
 			'public/modules/**/css/*.css'
 		],
         less: [
-			'public/modules/**/less/*.less'
+			'public/modules/**/less/config.less*'
         ],
 		js: [
 			'public/config.js',
