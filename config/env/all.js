@@ -54,11 +54,16 @@ module.exports = {
 				'public/lib/angular-material/angular-material.js',
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js'
-			]
+			],
+            less: [
+            ]
 		},
 		css: [
 			'public/modules/**/css/*.css'
 		],
+        less: [
+			'public/modules/**/less/*.less'
+        ],
 		js: [
 			'public/config.js',
 			'public/application.js',
