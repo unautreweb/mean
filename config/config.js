@@ -74,3 +74,11 @@ module.exports.getCSSAssets = function() {
 	var output = this.getGlobbedFiles(this.assets.lib.css.concat(this.assets.css), 'public/');
 	return output;
 };
+
+/**
+ * Get the modules LESS files
+ */
+module.exports.getLESSAssets = function() {
+	var output = this.getGlobbedFiles(this.assets.lib.less.concat(this.assets.less), 'public/');
+	return output;
+};
